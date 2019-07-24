@@ -1,45 +1,37 @@
 package za.co.diputu.view;
 
-import za.co.diputu.SpringUtilities;
+import za.co.diputu.view.Logger;
 
-import javax.swing.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
-public class NewHero extends JFrame {
+import static za.co.diputu.view.Logger.print;
+import static za.co.diputu.view.Logger.read;
 
-    private JTextField HeroName  = new JTextField(15);
-
-    public void SetWindow() {
-        final JFrame frame = new JFrame("JTextField Demo");
-
-        JLabel lblFName = new JLabel("First Name:");
-        JTextField tfFName = new JTextField(20);
-        lblFName.setLabelFor(tfFName);
-
-        JLabel lblLName = new JLabel("Last Name:");
-        JTextField tfLName = new JTextField(20);
-        lblLName.setLabelFor(tfLName);
-
-        JPanel panel = new JPanel();
-        panel.setLayout(new SpringLayout());
-
-        panel.add(lblFName);
-        panel.add(tfFName);
-        panel.add(lblLName);
-        panel.add(tfLName);
-
-        SpringUtilities.makeCompactGrid(panel,
-                2, 2,  //rows, cols
-                6, 6,  //initX, initY
-                6, 6); //xPad, yPad
-
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 100);
-        frame.getContentPane().add(panel);
-        frame.setVisible(true);
-    }
-
-    public int getHeroName(){
-        return Integer.parseInt(HeroName.getText());
+public class NewHero{
+    String userName;
+    String type;
+    int Level;
+    int points;
+    String weapon;
+    String armor;
+    String fileName = "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
+    public void SetHero()
+    {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Create Hero");
+        userName = obj.nextLine();
+        type = obj.nextLine();
+        Level = Integer.parseInt(obj.nextLine());
+        points = Integer.parseInt(obj.nextLine());
+        weapon = obj.nextLine();
+        armor = obj.nextLine();
+        print(userName + "," + type + ","+ Level +","+ points + "," + weapon + "," + armor);
+        System.out.println(userName + " Has been added as a hero");
+//        read();
     }
 }
 
