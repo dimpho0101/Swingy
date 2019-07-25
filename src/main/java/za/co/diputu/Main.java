@@ -8,7 +8,10 @@ import za.co.diputu.view.*;
 public class Main {
 
     public static void main(String[] args) {
-        NewHero theView = new NewHero();
-        theView.SetHero();
+        //NewHero theView = new NewHero();
+        //theView.SetHero();
+
+        SelectHero x = new SelectHero();
+        x.SelectHeroConsole();
     }
 }

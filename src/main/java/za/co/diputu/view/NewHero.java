@@ -18,7 +18,7 @@ public class NewHero{
     int points;
     String weapon;
     String armor;
-    String fileName = "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
+    String fileName = "/goinfre/diputu/Desktop/Swingy/Heroes.txt";
     public void SetHero()
     {
         Scanner obj = new Scanner(System.in);
