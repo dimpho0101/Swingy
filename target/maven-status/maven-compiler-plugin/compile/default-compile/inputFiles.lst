@@ -12,11 +12,13 @@
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Character.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/storage/HeroStorage.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/StartGame.java
+/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/Logger.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/util/CharacterFactory.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/SelectHero.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/WindowManager.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/artifacts/Armor.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/controller/CharacterController.java
+/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/controller/NewHeroController.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/artifacts/Weapon.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/Game.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/NewHero.java

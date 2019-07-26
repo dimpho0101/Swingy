@@ -11,7 +11,9 @@ public class Main {
         //NewHero theView = new NewHero();
         //theView.SetHero();
 
-        SelectHero x = new SelectHero();
-        x.SelectHeroConsole();
+//        SelectHero x = new SelectHero();
+//        x.SelectHeroConsole();
+        MainWindow x = new MainWindow();
+        x.theStart();
     }
 }

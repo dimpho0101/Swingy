@@ -22,16 +22,21 @@ public class NewHero{
     public void SetHero()
     {
         Scanner obj = new Scanner(System.in);
-        System.out.println("Create Hero");
+        System.out.println("Create Hero Name");
         userName = obj.nextLine();
         type = obj.nextLine();
         Level = Integer.parseInt(obj.nextLine());
+        outerloop:
+            if (Level >= 1)
+            {
+                System.out.println("You are creating a hero, you cannot have a level higher than 1");
+                break outerloop;
+            }
         points = Integer.parseInt(obj.nextLine());
         weapon = obj.nextLine();
         armor = obj.nextLine();
         print(userName + "," + type + ","+ Level +","+ points + "," + weapon + "," + armor);
         System.out.println(userName + " Has been added as a hero");
-//        read();
     }
 }
 

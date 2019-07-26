@@ -16,6 +16,7 @@ public class SelectHero {
         String line = null;
         Scanner obj = new Scanner(System.in);
         int index;
+        String start;
 
         try {
             // FileReader reads text files in the default encoding.
@@ -31,27 +32,37 @@ public class SelectHero {
 
                 x.add(line.split(","));
             }
+            System.out.println("Select a hero");
             int i = 1;
             for (String[] array : x){
-                    System.out.println("["+ i + "]"+ array[0]);
+                    System.out.println("["+ i + "]"+ array[0] +"| "+ array[1] + "| " + array[2] + "| " + array[3] + "| " + array[4]);
                     i++;
             }
             index = Integer.parseInt(obj.nextLine());
-            if(index == i)
+            int u = 0;
+            for (String [] z : x)
             {
-                System.out.println(x + "your hero");
+                if(index ==  u + 1)
+                {
+                    System.out.println( "You selected " + z[0] + " as your hero");
+                    start = obj.nextLine();
+                    if(start.equals("start"));
+                    {
+
+//                        System.out.println("Screen is cleared");
+                    }
+                }
+                u++;
             }
             bufferedReader.close();
         }
         catch(FileNotFoundException ex) {
-            System.out.println(
+                System.out.println(
                     "Unable to open file '" + fileName + "'");
         }
         catch(IOException ex) {
             System.out.println(
                     "Error reading file '" + fileName + "'");
-            // Or we could just do this:
-            // ex.printStackTrace();
         }
     }
 }
