@@ -42,17 +42,12 @@ public class SelectHero {
             int u = 0;
             for (String [] z : x)
             {
-                if(index ==  u + 1)
+                if (index ==  u + 1)
                 {
                     System.out.println( "You selected " + z[0] + " as your hero");
-                    start = obj.nextLine();
-                    if(start.equals("start"));
-                    {
-
-//                        System.out.println("Screen is cleared");
-                    }
                 }
                 u++;
+                break;
             }
             bufferedReader.close();
         }

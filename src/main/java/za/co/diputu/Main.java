@@ -8,12 +8,11 @@ import za.co.diputu.view.*;
 public class Main {
 
     public static void main(String[] args) {
-        //NewHero theView = new NewHero();
-        //theView.SetHero();
+//    SelectAction x = new SelectAction();
+//    x.SelectActionX();
 
-//        SelectHero x = new SelectHero();
-//        x.SelectHeroConsole();
-        MainWindow x = new MainWindow();
-        x.theStart();
+        PlayMission x = new PlayMission();
+        x.StartMission();
+
     }
 }
