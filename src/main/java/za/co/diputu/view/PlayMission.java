@@ -25,12 +25,11 @@ public class PlayMission {
         }
         index = Integer.parseInt(n.nextLine());
 
-        int j = 0;
-        for (String u : coordinates) {
-            if (i == index + 1) {
-                System.out.println("You selected " + u + " as a coordinate");
-            }
-            j++;
+
+        // print index counter
+        if (index == i)
+        {
+            System.out.println();
         }
     }
 
