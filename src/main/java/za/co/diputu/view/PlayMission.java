@@ -11,15 +11,20 @@ public class PlayMission {
     {
 //        String[] coordinates = {"North", "East", "West", "South"};
         ArrayList<String> coordinates = new ArrayList<String>();
-        int i= 1;
+        int index;
 
         coordinates.add("North");
         coordinates.add("East");
         coordinates.add("West");
         coordinates.add("South");
 //        coordinates.forEach((n) -> System.out.println(n));
-        for (String x : coordinates){
-            System.out.println("[" + i + "]" + coordinates);
+        for (int i= 0;i < 4;i++)
+        {
+            System.out.println("[" + i + "]" + coordinates.get(i).toString());
+        }
+        index = Integer.parseInt(n.nextLine());
+        if (){
+
         }
     }
 
