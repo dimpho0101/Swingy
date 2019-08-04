@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class PlayMission {
     Scanner n = new Scanner(System.in);
 
+
     public void StartMission()
     {
-//        String[] coordinates = {"North", "East", "West", "South"};
         ArrayList<String> coordinates = new ArrayList<String>();
         int index;
         int i;
@@ -21,25 +21,33 @@ public class PlayMission {
 //        coordinates.forEach((n) -> System.out.println(n));
         for (i= 0;i < 4;i++)
         {
-            System.out.println("[" + i + "]" + coordinates.get(i).toString());
+            System.out.println("[" + i + "]" + coordinates.get(i));
+            System.out.println("yooo");
         }
         index = Integer.parseInt(n.nextLine());
 
-
-        // print index counter
-        if (index == i)
-        {
-            System.out.println();
+        int u = 0;
+        for (String z : coordinates){
+            coordinates
+//            if (index == u) {
+                System.out.println();
+//            }
         }
+
+        if (index == i){
+            System.out.println(coordinates.get(i));
+        }
+
     }
 
     public void StartOption(){
+        System.out.println("Press 1 to start game");
         String obj = n.nextLine();
         if (obj == "1")
         {
-            StartMission();
+
+            System.out.println("yooo");
         }
-        System.out.println("Press 1 to start game");
     }
 
     public void ExitGame(){
