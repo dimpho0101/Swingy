@@ -1,12 +1,12 @@
 package za.co.diputu.view;
 
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class SelectHero {
+    public String HeroValue;
     public void SelectHeroConsole()
     {
         // The name of the file to open.
@@ -16,16 +16,11 @@ public class SelectHero {
         String line = null;
         Scanner obj = new Scanner(System.in);
         int index;
-        String start;
 
         try {
-            // FileReader reads text files in the default encoding.
-            FileReader fileReader =
-                    new FileReader(fileName);
+            FileReader fileReader = new FileReader(fileName);
 
-            // Always wrap FileReader in BufferedReader.
-            BufferedReader bufferedReader =
-                    new BufferedReader(fileReader);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             List<String[]> x = new ArrayList<>();
             while((line = bufferedReader.readLine()) != null) {
@@ -44,20 +39,20 @@ public class SelectHero {
             {
                 if (index ==  u + 1)
                 {
-                    System.out.println( "You selected " + z[0] + " as your hero");
+                   HeroValue = z[0];
+                    System.out.println( "You selected " + HeroValue + " as your hero");
                 }
                 u++;
-                break;
             }
+
+
             bufferedReader.close();
         }
         catch(FileNotFoundException ex) {
-                System.out.println(
-                    "Unable to open file '" + fileName + "'");
+                System.out.println("Unable to open file '" + fileName + "'");
         }
         catch(IOException ex) {
-            System.out.println(
-                    "Error reading file '" + fileName + "'");
+            System.out.println("Error reading file '" + fileName + "'");
         }
     }
 }

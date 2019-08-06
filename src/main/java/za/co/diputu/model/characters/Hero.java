@@ -9,13 +9,13 @@ import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
-public abstract class Hero extends Character {
+public class Hero {
     @NotNull
     private Weapon weapon;
     @NotNull
     private Armor armor;
     private String HeroName;
 
-    int level;
-    int experience;
+    public int level;
+   public int experience;
 }
