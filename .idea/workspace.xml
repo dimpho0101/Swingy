@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15e36c3-38ee-4156-9113-28e915774f81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hereos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hereos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/SpringUtilities.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/SpringUtilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,8 +44,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
-                  <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+                <state relative-caret-position="338">
+                  <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -81,8 +68,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Hereos.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -441,18 +428,18 @@
       <workItem from="1564910919340" duration="5243000" />
       <workItem from="1565007021764" duration="3670000" />
       <workItem from="1565080690838" duration="3554000" />
-      <workItem from="1565089303816" duration="7921000" />
+      <workItem from="1565089303816" duration="8993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110862000" />
+    <option name="totallyTimeSpent" value="111934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26237625" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26237625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -706,10 +686,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hereos.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -723,20 +706,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hereos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="338">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

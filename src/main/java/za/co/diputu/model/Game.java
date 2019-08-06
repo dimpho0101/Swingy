@@ -36,13 +36,12 @@ public class Game {
                 x.add(line.split(","));
             }
             //////////////////////////////////////////////////////////////////
-            for (String [] z : x)
-        {
-            levelnum = z[2];
-            System.out.println(levelnum);
-            System.out.println(z[2]);
-            System.out.println("wanna see " + levelnum);
-        }
+             for (String [] z : x)
+                {
+                    levelnum = z[2];
+                    System.out.println(levelnum);
+
+                }
 
         SelectHero shero = new SelectHero();
         String hr = shero.HeroValue;
