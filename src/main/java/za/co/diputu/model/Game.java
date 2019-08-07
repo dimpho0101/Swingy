@@ -39,18 +39,26 @@ public class Game {
              for (String [] z : x)
                 {
                     levelnum = z[2];
-                    System.out.println(levelnum);
-
+                    int yo = Integer.parseInt(levelnum);
+                    System.out.println(yo);
+                    System.out.println("------------------yo--------------yo----------");
                 }
 
         SelectHero shero = new SelectHero();
         String hr = shero.HeroValue;
         //////////////////////////////////////////////////////////////////
-
-//        System.out.println(levelnum);
-        int parsedNum = Integer.parseInt(levelnum);
+            System.out.println("--------");
+            for (String [] m: x){
+                System.out.println(levelnum);
+            }
 //        System.out.println(parsedNum);
-        lvl = (parsedNum - 1) * 5 + 10 - (parsedNum % 2);
+            System.out.println("---------");
+            for (String[] e: x){
+                int parsedNum = Integer.parseInt(levelnum);
+                System.out.println(parsedNum);
+            }
+//            System.out.println(parsedNum);
+//        lvl = (parsedNum - 1) * 5 + 10 - (parsedNum % 2);
 //        System.out.println(lvl);
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
