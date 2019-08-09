@@ -24,8 +24,8 @@ public class GameSingleton {
         System.out.println("The tongue twirling: " + x.s);
     }
 
-    public static void main(String args[]){
-        GameSingleton x = new GameSingleton();
-        x.gameSingle();
-    }
+//    public static void main(String args[]){
+//        GameSingleton x = new GameSingleton();
+//        x.gameSingle();
+//    }
 }

@@ -1,5 +1,4 @@
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Knight.java
-/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/SpringUtilities.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/CustomizeHero.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Villian.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/Main.java
@@ -7,6 +6,7 @@
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/controller/GamePlayController.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Elf.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Orc.java
+/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/SelectAction.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/MainWindow.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/BlackMage.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Character.java
@@ -18,10 +18,11 @@
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/WindowManager.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/artifacts/Armor.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/controller/CharacterController.java
+/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/GameSingleton.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/controller/NewHeroController.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/artifacts/Weapon.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/Game.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/NewHero.java
-/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/NewHeroModel.java
+/goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/view/TxtReader.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/artifacts/WeaponType.java
 /goinfre/diputu/Desktop/Swingy/src/main/java/za/co/diputu/model/characters/Hero.java

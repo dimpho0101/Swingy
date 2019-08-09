@@ -2,12 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15e36c3-38ee-4156-9113-28e915774f81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_20_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Swingy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Swingy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_annotation_processor_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_12_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/controller/CharacterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/controller/GamePlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/controller/NewHeroController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/GameSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/artifacts/Armor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/artifacts/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/artifacts/WeaponType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/BlackMage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Elf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Orc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/model/characters/Villian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/storage/HeroStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/util/CharacterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/CustomizeHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/NewHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/PlayMission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/SelectAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/SelectHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/StartGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/TxtReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/za/co/diputu/view/WindowManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/Swingy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/META-INF/Swingy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/controller/CharacterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/controller/GamePlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/controller/NewHeroController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/GameSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/artifacts/Armor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/artifacts/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/artifacts/WeaponType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/BlackMage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Elf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Orc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/model/characters/Villian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/storage/HeroStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/util/CharacterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/CustomizeHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/NewHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/PlayMission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/SelectHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/StartGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/TxtReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/za/co/diputu/view/WindowManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/lib/hibernate-validator-annotation-processor-6.0.17.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/lib/lombok-1.12.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/lib/slf4j-simple-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Swingy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swingy-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Swingy.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/CharacterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/CharacterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/GamePlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/GamePlayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/NewHeroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/controller/NewHeroController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/GameSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/GameSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/Armor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/Armor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/WeaponType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/artifacts/WeaponType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/BlackMage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/BlackMage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Elf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Elf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Orc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Orc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Villian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/characters/Villian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/storage/HeroStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/storage/HeroStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/util/CharacterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/util/CharacterFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/CustomizeHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/CustomizeHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/NewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/NewHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/StartGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/TxtReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/TxtReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/WindowManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/WindowManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/hibernate-validator-annotation-processor-6.0.17.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/lombok-1.12.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/slf4j-simple-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +140,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5013089">
+    <splitter split-orientation="horizontal" split-proportion="0.51708573">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+                <state relative-caret-position="585">
+                  <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +155,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+                <state relative-caret-position="585">
+                  <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -48,8 +167,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+                <state relative-caret-position="315">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -58,70 +177,28 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Hereos.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="90">
+                  <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+                <state relative-caret-position="406">
+                  <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Villian.java">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.12.6/lombok-1.12.6.jar!/lombok/javac/JavacTreeMaker.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                <state relative-caret-position="8460">
+                  <caret line="696" selection-start-line="696" selection-end-line="696" />
                 </state>
               </provider>
             </entry>
@@ -133,8 +210,34 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                <state relative-caret-position="26">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1056#1057#0" expanded="true" />
+                    <element signature="e#1088#1089#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -168,7 +271,6 @@
       <list>
         <option value="$PROJECT_DIR$/hereos.txt" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/WindowManager.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/CharacterController.java" />
         <option value="$USER_HOME$/Downloads/SpringUtilities.java" />
@@ -185,14 +287,15 @@
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" />
         <option value="$PROJECT_DIR$/Hereos.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" />
       </list>
     </option>
   </component>
@@ -202,6 +305,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="swingy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -213,7 +327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,29 +360,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="diputu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diputu" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diputu" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameSingleton">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="GameSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.diputu.model.GameSingleton" />
       <module name="Swingy" />
@@ -350,6 +446,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.diputu.Main" />
+      <module name="Swingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="geeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.diputu.view.geeks" />
       <module name="Swingy" />
@@ -390,17 +493,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.NewHero" />
       <item itemvalue="Application.geeks" />
       <item itemvalue="Application.Logger" />
-      <item itemvalue="Maven.build" />
       <item itemvalue="Application.GameSingleton" />
+      <item itemvalue="Maven.build" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameSingleton" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GameSingleton" />
         <item itemvalue="Application.geeks" />
         <item itemvalue="Application.Logger" />
         <item itemvalue="Application.NewHero" />
@@ -449,18 +553,21 @@
       <workItem from="1565007021764" duration="3670000" />
       <workItem from="1565080690838" duration="3554000" />
       <workItem from="1565089303816" duration="9528000" />
-      <workItem from="1565170697114" duration="6474000" />
+      <workItem from="1565170697114" duration="7106000" />
+      <workItem from="1565246452445" duration="6789000" />
+      <workItem from="1565264150091" duration="2058000" />
+      <workItem from="1565270588612" duration="1987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118943000" />
+    <option name="totallyTimeSpent" value="130409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18796591" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15814696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,13 +576,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26237625" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26237625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32970297" />
@@ -490,7 +597,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.015974442" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,13 +682,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -670,27 +770,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameView.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/example.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Villian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -705,27 +785,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/example.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="390">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.12.6/lombok-1.12.6.jar!/lombok/javac/JavacTreeMaker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="696" selection-start-line="696" selection-end-line="696" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="406">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -734,8 +847,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -744,18 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/GameSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>

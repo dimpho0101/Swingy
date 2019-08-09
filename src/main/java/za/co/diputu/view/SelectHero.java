@@ -1,5 +1,6 @@
 package za.co.diputu.view;
 
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,4 +56,5 @@ public class SelectHero {
             System.out.println("Error reading file '" + fileName + "'");
         }
     }
+
 }

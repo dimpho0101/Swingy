@@ -17,8 +17,11 @@ public class Game {
     int lvl = hero.level;
     Scanner obj = new Scanner(System.in);
     String levelnum;
-
     public void Reader() {
+
+        SelectHero w = new SelectHero();
+        w.SelectHeroConsole();
+        String Hero = w.HeroValue;
 
         String fileName =  "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
 
@@ -35,28 +38,19 @@ public class Game {
             while((line = bufferedReader.readLine()) != null) {
                 x.add(line.split(","));
             }
-            //////////////////////////////////////////////////////////////////
-             for (String [] z : x)
+
+//            System.out.println(Hero);
+//        ////////   /////// //////////////////////////////////////////////////////////////////
+//            for (String[] array : x){
+//               if (array[0] == )
+//            }
+            for (String [] z : x)
                 {
                     levelnum = z[2];
-                    int yo = Integer.parseInt(levelnum);
-                    System.out.println(yo);
-                    System.out.println("------------------yo--------------yo----------");
+                    System.out.println(levelnum);
                 }
 
-        SelectHero shero = new SelectHero();
-        String hr = shero.HeroValue;
-        //////////////////////////////////////////////////////////////////
-            System.out.println("--------");
-            for (String [] m: x){
-                System.out.println(levelnum);
-            }
-//        System.out.println(parsedNum);
-            System.out.println("---------");
-            for (String[] e: x){
-                int parsedNum = Integer.parseInt(levelnum);
-                System.out.println(parsedNum);
-            }
+
 //            System.out.println(parsedNum);
 //        lvl = (parsedNum - 1) * 5 + 10 - (parsedNum % 2);
 //        System.out.println(lvl);

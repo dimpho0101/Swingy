@@ -5,14 +5,14 @@ import lombok.Setter;
 import za.co.diputu.model.artifacts.Armor;
 import za.co.diputu.model.artifacts.Weapon;
 
-import javax.validation.constraints.NotNull;
+//import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
 public class Hero {
-    @NotNull
+//    @NotNull
     private Weapon weapon;
-    @NotNull
+//    @NotNull
     private Armor armor;
     private String HeroName;
 

@@ -8,13 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TxtReader {
+    public List<String[]> x = new ArrayList<>();
 
     public void Read()
     {
         String fileName = "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
 
         String line = null;
-        List<String[]> x = new ArrayList<>();
+
         try {
             FileReader fileReader = new FileReader(fileName);
 
@@ -32,5 +33,10 @@ public class TxtReader {
         catch(IOException ex) {
             System.out.println("Error reading file '" + fileName + "'");
         }
+    }
+
+    public List<String[]>getList()
+    {
+        return getList();
     }
 }
