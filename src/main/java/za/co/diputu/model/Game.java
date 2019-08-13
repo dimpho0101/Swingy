@@ -20,10 +20,9 @@ public class Game {
     public void Reader() {
 
         SelectHero w = new SelectHero();
-        w.SelectHeroConsole();
         String Hero = w.HeroValue;
 
-        String fileName =  "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
+        String fileName = "/goinfre/diputu/Desktop/Projects/Hereos.txt";
 
         String line = null;
 
@@ -44,14 +43,18 @@ public class Game {
 //            for (String[] array : x){
 //               if (array[0] == )
 //            }
-            for (String [] z : x)
+            int i = 0;
+            for (String[] z : x)
                 {
+                    System.out.println(Hero);
                     levelnum = z[2];
-                    System.out.println(levelnum);
+                    System.out.println(Integer.parseInt(levelnum));
+                    for (i = 0; i < z.length; i++)
+                    {
+                        System.out.println("[" + i  + "]" + z[i]);
+                    }
                 }
-
-
-//            System.out.println(parsedNum);
+//        System.out.println(parsedNum);
 //        lvl = (parsedNum - 1) * 5 + 10 - (parsedNum % 2);
 //        System.out.println(lvl);
             bufferedReader.close();

@@ -11,7 +11,7 @@ public class SelectHero {
     public void SelectHeroConsole()
     {
         // The name of the file to open.
-        String fileName = "/goinfre/diputu/Desktop/Swingy/Hereos.txt";
+        String fileName = "/goinfre/diputu/Desktop/Projects/Hereos.txt";
 
         // This will reference one line at a time
         String line = null;
@@ -40,7 +40,7 @@ public class SelectHero {
             {
                 if (index ==  u + 1)
                 {
-                   HeroValue = z[0];
+                   HeroValue = z[1];
                     System.out.println( "You selected " + HeroValue + " as your hero");
                 }
                 u++;
