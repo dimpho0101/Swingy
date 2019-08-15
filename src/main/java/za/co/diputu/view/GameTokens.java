@@ -15,11 +15,10 @@ public class GameTokens {
             String coordinates = array[x];
             System.out.println("["+ i + "]" + coordinates);
             i++;
-            index = Integer.parseInt(obj.nextLine());
             int c = 0;
-            if (index == c)
-            {
-                String yo = array[x];
+            index = Integer.parseInt(obj.nextLine());
+            if (index == c + 1) {
+                System.out.println(array[c]);
             }
         }
     }
