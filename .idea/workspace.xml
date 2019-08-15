@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15e36c3-38ee-4156-9113-28e915774f81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/util/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameTokens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Swingy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swingy-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/NewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/NewHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/PlayMission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/TxtReader.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,32 +33,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51708573">
+    <splitter split-orientation="horizontal" split-proportion="0.4396887">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
+                <state relative-caret-position="653">
+                  <caret line="48" selection-start-line="48" selection-end-line="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -59,22 +58,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameTokens.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/Weapon.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="654">
-                  <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -82,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="22" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="22" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -98,8 +94,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="338">
+                  <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -108,15 +104,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java">
+            <entry file="file://$PROJECT_DIR$/Hereos.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1056#1057#0" expanded="true" />
-                    <element signature="e#1088#1089#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="15">
+                  <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -172,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/NewHeroController.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/NewHero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameView.java" />
         <option value="$PROJECT_DIR$/Hereos.txt" />
@@ -181,9 +171,12 @@
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/Hero.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/util/Helpers.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameTokens.java" />
       </list>
     </option>
   </component>
@@ -256,6 +249,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="diputu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diputu" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,12 +267,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="diputu" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diputu" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diputu" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GameSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.diputu.model.GameSingleton" />
       <module name="Swingy" />
@@ -344,7 +360,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NewHero" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.diputu.view.NewHero" />
       <module name="Swingy" />
       <extension name="coverage">
@@ -417,7 +433,6 @@
         <item itemvalue="Application.GameSingleton" />
         <item itemvalue="Application.geeks" />
         <item itemvalue="Application.Logger" />
-        <item itemvalue="Application.NewHero" />
       </list>
     </recent_temporary>
   </component>
@@ -468,18 +483,21 @@
       <workItem from="1565264150091" duration="2058000" />
       <workItem from="1565270588612" duration="1987000" />
       <workItem from="1565684183933" duration="52000" />
-      <workItem from="1565684295675" duration="6187000" />
+      <workItem from="1565684295675" duration="6510000" />
+      <workItem from="1565770336671" duration="3691000" />
+      <workItem from="1565861967714" duration="4337000" />
+      <workItem from="1565878237912" duration="3503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136648000" />
+    <option name="totallyTimeSpent" value="148502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16613418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,31 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/WeaponType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/characters/BlackMage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -700,15 +697,63 @@
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.12.6/lombok-1.12.6.jar!/lombok/javac/JavacTreeMaker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        <state relative-caret-position="627">
+          <caret line="696" selection-start-line="696" selection-end-line="696" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/TxtReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/util/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/artifacts/WeaponType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hereos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -722,45 +767,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hereos.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.12.6/lombok-1.12.6.jar!/lombok/javac/JavacTreeMaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="696" selection-start-line="696" selection-end-line="696" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/PlayMission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="653">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -769,21 +796,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
+        <state relative-caret-position="338">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/diputu/view/GameTokens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>

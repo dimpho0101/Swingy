@@ -17,7 +17,7 @@ public class SelectAction {
            String s = obj.nextLine();
            String c = obj.nextLine();
            if (s.equals("s")) {
-               x.SelectHeroConsole();
+               x.selectHero();
            } else if (c.equals("c")) {
                player.SetHero();
            }
