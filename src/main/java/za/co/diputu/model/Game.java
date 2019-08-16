@@ -15,13 +15,13 @@ import java.util.Scanner;
 public class Game {
 
     Hero hero = new Hero();
-    int mapDem;
+    public int mapDem;
     Scanner obj = new Scanner(System.in);
     String levelnum;
+    public Game(){ Reader(); }
     public void Reader() {
 
         SelectHero w = new SelectHero();
-//        w.SelectHero();
         String Hero = w.HeroValue;
         int Level = w.LevelValue;
         List<String[]> x = Helpers.getHeroes();
@@ -37,14 +37,6 @@ public class Game {
             }
     }
 
-    public void StartGame()
-    {
-        int PlayerPoint = mapDem / 2;
-        System.out.println(PlayerPoint);
-        if (mapDem == mapDem)
-        {
-            System.out.println("Game Over");
-        }
-    }
+
 
 }

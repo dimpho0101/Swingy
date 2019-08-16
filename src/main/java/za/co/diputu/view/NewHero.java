@@ -1,11 +1,5 @@
 package za.co.diputu.view;
 
-import za.co.diputu.view.Logger;
-
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
 import static za.co.diputu.view.Logger.print;

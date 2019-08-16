@@ -1,6 +1,7 @@
 package za.co.diputu;
 
 import za.co.diputu.model.Game;
+import za.co.diputu.model.StartGame;
 import za.co.diputu.view.GameTokens;
 import za.co.diputu.view.SelectHero;
 
@@ -9,10 +10,12 @@ public class Main {
 //        SelectHero select = new SelectHero();
 //        select.selectHero();
 
-//        Game game = new Game();
-//        game.Reader();
+//        StartGame game = new StartGame();
 //        game.StartGame();
-        GameTokens x = new GameTokens();
-        x.GameTokens();
+//        game.Reader();
+//        GameTokens x = new GameTokens();
+//        x.GameTokens();
+        StartGame x = new StartGame();
+        x.navigation();
     }
 }
