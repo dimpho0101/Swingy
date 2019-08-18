@@ -1,6 +1,8 @@
 package za.co.diputu.view;
 
 import java.util.Scanner;
+import za.co.diputu.model.*;
+import za.co.diputu.model.StartGame;
 
 public class GameTokens {
     public String array[] = {"North", "East", "West", "South"};

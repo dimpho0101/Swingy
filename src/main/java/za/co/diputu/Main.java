@@ -7,15 +7,16 @@ import za.co.diputu.view.SelectHero;
 
 public class Main {
     public static void main(String[] args) {
-//        SelectHero select = new SelectHero();
-//        select.selectHero();
+        SelectHero select = new SelectHero();
+        select.selectHero();
 
 //        StartGame game = new StartGame();
 //        game.StartGame();
-//        game.Reader();
-//        GameTokens x = new GameTokens();
-//        x.GameTokens();
-        StartGame x = new StartGame();
-        x.navigation();
+        Game game = new Game();
+        game.GameValues();
+//        GameTokens xw = new GameTokens();
+//        xw.GameTokens();
+//        StartGame x = new StartGame();
+//        x.StartGame();
     }
 }
