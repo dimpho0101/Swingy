@@ -10,7 +10,7 @@ public class SelectAction {
     {
         System.out.println("....");
         NewHero player = new NewHero();
-        SelectHero x = new SelectHero();
+        SelectHero x = SelectHero.getSelectHero();
 
        while (true) {
            System.out.println("Select a hero, select s" +  " | " + "Create a hero, select c" );

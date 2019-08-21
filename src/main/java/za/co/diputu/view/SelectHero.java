@@ -12,16 +12,24 @@ import java.util.Scanner;
 public class SelectHero {
     public int LevelValue;
 
-    public SelectHero(){
-        selectHero();
+    //HeroValue Singleton
+    private static SelectHero selectHero = null;
+
+    private SelectHero(){
     }
 
-    Game x = new Game();
+    public static SelectHero getSelectHero()
+    {
+        if (selectHero == null) {
+            selectHero = new SelectHero();
+        }
+        return selectHero;
+    }
 
+    public String Hero;
     private static String HeroValue;
     public static String getHeroValue()
     { return HeroValue; }
-    public String Hero;
     public static void setHeroValue(String a){HeroValue = a;}
 
     public void selectHero()
@@ -50,4 +58,6 @@ public class SelectHero {
                 u++;
             }
     }
+
+
 }

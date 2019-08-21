@@ -1,8 +1,9 @@
 package za.co.diputu.model;
 
 public class Coordinates {
-    private int x;
-    private int y;
+
+    private static int x;
+    private static int y;
     public Coordinates(){}
     public Coordinates(int x, int y)
     {

@@ -42,5 +42,6 @@ public class NewHero
         print(userName + "," + type + ","+ 1 +","+ 0 + "," + weapon + "," + armor);
         System.out.println(userName + " Has been added as a hero");
     }
+
 }
 
