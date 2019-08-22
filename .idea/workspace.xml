@@ -4,18 +4,11 @@
     <list default="true" id="b15e36c3-38ee-4156-9113-28e915774f81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/util/GetSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/NewHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/NewHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/CustomizeHero.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Coordinates.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/util/GetSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/CustomizeHero.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +247,8 @@
       <workItem from="1566218811638" duration="1024000" />
       <workItem from="1566288013970" duration="2187000" />
       <workItem from="1566379300017" duration="2501000" />
-      <workItem from="1566383271215" duration="8350000" />
+      <workItem from="1566383271215" duration="9217000" />
+      <workItem from="1566460211850" duration="14507000" />
     </task>
     <servers />
   </component>
