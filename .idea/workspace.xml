@@ -5,10 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/CustomizeHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/CustomizeHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eg$Exercise7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.diputu.model.eg$Exercise7" />
+      <module name="Swingy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.diputu.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="geeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.co.diputu.view.geeks" />
       <module name="Swingy" />
@@ -177,9 +190,11 @@
       <item itemvalue="Application.Logger" />
       <item itemvalue="Application.GameSingleton" />
       <item itemvalue="Maven.build" />
+      <item itemvalue="Application.eg$Exercise7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.eg$Exercise7" />
         <item itemvalue="Application.GameSingleton" />
         <item itemvalue="Application.geeks" />
         <item itemvalue="Application.Logger" />
@@ -248,7 +263,14 @@
       <workItem from="1566288013970" duration="2187000" />
       <workItem from="1566379300017" duration="2501000" />
       <workItem from="1566383271215" duration="9217000" />
-      <workItem from="1566460211850" duration="14507000" />
+      <workItem from="1566460211850" duration="16041000" />
+      <workItem from="1566723918929" duration="2807000" />
+      <workItem from="1566802210145" duration="1133000" />
+      <workItem from="1566825292068" duration="317000" />
+      <workItem from="1566894889582" duration="1896000" />
+      <workItem from="1566979998155" duration="4308000" />
+      <workItem from="1567064297172" duration="3435000" />
+      <workItem from="1567075852148" duration="1295000" />
     </task>
     <servers />
   </component>
