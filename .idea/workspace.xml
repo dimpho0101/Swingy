@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15e36c3-38ee-4156-9113-28e915774f81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/newHeroModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Swingy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Swingy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hereos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hereos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/SelectAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/diputu/view/SelectAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/GamePlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/GamePlayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/NewHeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/controller/NewHeroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/NewHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/diputu/view/NewHero.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +27,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>appendStrToFile</find>
-      <find>x</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,8 +184,8 @@
       <item itemvalue="Application.geeks" />
       <item itemvalue="Application.Logger" />
       <item itemvalue="Application.GameSingleton" />
-      <item itemvalue="Maven.build" />
       <item itemvalue="Application.eg$Exercise7" />
+      <item itemvalue="Maven.build" />
     </list>
     <recent_temporary>
       <list>
@@ -271,6 +266,7 @@
       <workItem from="1566979998155" duration="4308000" />
       <workItem from="1567064297172" duration="3435000" />
       <workItem from="1567075852148" duration="1295000" />
+      <workItem from="1567245676280" duration="5429000" />
     </task>
     <servers />
   </component>
