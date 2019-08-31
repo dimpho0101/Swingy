@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class SelectHero {
     public int LevelValue;
 
-    //HeroValue Singleton
     private static SelectHero selectHero = null;
 
     private SelectHero(){
@@ -51,7 +50,6 @@ public class SelectHero {
                 {
                     SelectHero.setHeroValue(z[0]);
                     Hero = SelectHero.getHeroValue();
-//                    HeroValue = z[0];
                     System.out.println( "You selected " + Hero + " as your hero");
                     LevelValue = Integer.parseInt(z[2]);
                 }

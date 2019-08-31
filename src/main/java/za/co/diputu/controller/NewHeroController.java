@@ -36,10 +36,7 @@ public class NewHeroController {
         return model.getType();
     }
 
-    public void setLevel(int Level)
-    {
-        model.setLevel(Level);
-    }
+    public void setLevel(int Level) { model.setLevel(Level); }
 
     public int getLevel()
     {
