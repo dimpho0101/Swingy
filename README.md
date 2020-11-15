@@ -14,4 +14,6 @@ The purpose of the project is to build a minimalistic console based RPG game usi
 After cloning the repo, cd into the repo and run the following commands in your terminal:
 
 $ mvn clean package
+
+
 $ java -jar target/Swingy-1.0-SNAPSHOT.jar
