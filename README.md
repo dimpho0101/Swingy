@@ -5,7 +5,8 @@ The purpose of the project is to build a minimalistic console based RPG game usi
 
 # Prerequisites:
 
-Java (Core Programming Language - JDK 8 >) Maven (Dependency Management)
+- Java (Core Programming Language - JDK 8 >)
+- Maven (Dependency Management)
 
 
 # Set Up:
